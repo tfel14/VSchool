@@ -1,0 +1,38 @@
+Javascript uses camel casing; means that the first letter of the first word is lowercased while ever word after starts with an uppercase. (firstName or inMyIndex)
+
+ Javascript doesn't read whitespace so too many spaces or no space doe the same as one space.
+
+ // comments
+/*
+    anything in between these are commented out
+*/
+
+
+// unix casing
+    // silly cia - no
+    // Silly Cia - no 
+    // silly_cia - yes
+
+selecting elements----
+# Quiz:
+
+1. What are some of the differences between getElementById and getElementsByClassName?
+* id - returns a single element/object from the document. class name (tag name) returns an array-like object.
+* id - needs an id to find, class name - needs a class to find
+        document.getElementsByTagName("div")
+
+2. What will `.getElementsByClassName` return if there are no elements with the matching class in the document?
+Returns an empty array
+
+
+3. What will `.getElementById` return if there is no element with the matching id in the document?
+`null`
+
+
+querySelector will always select only the first element it finds that matches the query.
+    var result = document.querySelector("#favorite-things")
+    console.log(result)
+
+querySelectorAll will select all elements that match the query.
+    var result = document.querySelectorAll("#favorite-things")
+    console.log(result)
