@@ -1,0 +1,11 @@
+#box{
+    background-color: white;
+    padding:5px;
+    width:500px;
+    height:500px;
+    position:absolute;
+    left: 100px;
+    top :100px;
+    border-style: solid;
+    border-color: black
+}
