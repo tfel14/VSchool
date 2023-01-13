@@ -25,16 +25,21 @@ clear.addEventListener("click", function(){
 // Change the theme
 let theme = document.getElementById("theme-drop-down")
 theme.addEventListener("change", function(){
-    var select = event.target;
+    var select = e.target;
     var value = select.value;
     console.log(value);
 });
 
 // Make a new div with the input in the form box
-let newMsg = document.getElementById("input")
+let newMsg = document.getElementById("input").value
 
 function send(){
     const div = document.createElement("div");
     const text = newMsg.value;
-    newMsg.append(text);
+    div.textContent = text;
 }
+
+let sent = document.getElementById("send-button");
+sent.addEventListener("click", function()[
+    const bubble = 
+])
