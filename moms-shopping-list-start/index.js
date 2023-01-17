@@ -12,5 +12,5 @@ form.addEventListener("submit", (e) => {
 })
 
 remove.addEventListener("click", (e) => {
-    e.target.parentNode.remove()
+    e.target.parentElement.remove()
 })
