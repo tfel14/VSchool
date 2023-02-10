@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    font-size: 0px;
+}
+
+#row1 {
+    display: inline-block;
+    border-style: solid;
+    border-color: white;
+    background-color: #F5C6D6;
+}
+
+#row2 {
+    display: inline-block;
+    background-color: #EE2E84;
+}
+
+#row3 {
+    display: inline-block;
+    background-color: #85CFD8;
+}
+
+#row4 {
+    display: inline-block;
+    background-color: #8DC63F
+}
+
+#row4end {
+    display: inline-block;
+    background-color: #E76E34;
+}
