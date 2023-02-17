@@ -8,24 +8,42 @@
     border-style: solid;
     border-color: white;
     background-color: #F5C6D6;
+    height: 200px;
+    width: 100%;
 }
 
 #row2 {
     display: inline-block;
     background-color: #EE2E84;
+    border-color: white;
+    border-style: solid;
+    height: 200px;
+    width: 25%;
 }
 
 #row3 {
     display: inline-block;
     background-color: #85CFD8;
+    border-color: white;
+    border-style: solid;
+    height: 200px;
+    width: 50%;
 }
 
 #row4 {
     display: inline-block;
-    background-color: #8DC63F
+    background-color: #8DC63F;
+    border-color: white;
+    border-style: solid;
+    height: 200px;
+    width: 75%;
 }
 
 #row4end {
     display: inline-block;
     background-color: #E76E34;
+    border-color: white;
+    border-style: solid;
+    height: 200px;
+    width: 25%;
 }
