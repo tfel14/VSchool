@@ -1,5 +1,7 @@
-* {
-    background-image: ;
+html {
+    background-image: url("executive_room.webp");
+    background-repeat: no-repeat;
+    background-size:200%;
 }
 .container{
     display: grid;
@@ -12,38 +14,49 @@ h1 {
     text-align: center;
 }
 
-nav {
+h2 {
+    grid-row: 3/4;
+    text-align: center;
+}
 
+p {
+    grid-column: 2/4;
+    grid-row: 4/5;
+}
+nav {
+    grid-column: 1/4;
 }
 
 div {
-
+    display: inline-block;
+    grid-column: 1/4;
 }
 
 span {
-
-}
-
-nav > div:nth-child(1) {
     grid-column: 1/2;
-    grid-row: 2/3;
-    border: 1px solid black;
-    border-radius: 3px;
-    text-align: center;
+    grid-row: 4/5;
 }
 
-nav > div:nth-child(2) {
-    grid-column: 2/3;
-    grid-row: 2/3;
+#one {
+
     border: 1px solid black;
     border-radius: 3px;
     text-align: center;
+    width: 33%;
 }
 
-nav > div:nth-child(3) {
-    grid-column: 3/4;
-    grid-row: 2/3;
+#two {
+
     border: 1px solid black;
     border-radius: 3px;
     text-align: center;
+    width: 33%;
+}
+
+#three {
+
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+    width: 32%;
 }
