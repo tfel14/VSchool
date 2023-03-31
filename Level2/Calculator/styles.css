@@ -1,0 +1,30 @@
+body > h1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+#add {
+    display: inline-flex;
+    margin: 50px 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+
+}
+
+#subtract{
+    display: inline-flex;
+    margin: 50px 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcoral;
+}
+
+#multiply {
+    display: inline-flex;
+    margin: 50px 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
